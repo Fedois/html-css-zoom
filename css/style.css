@@ -46,14 +46,12 @@ header div span a{
 
 /* MAIN */
 main{
-    padding-top: 0;
-    padding-bottom: 100px;
+    padding-top: 70px;
 }
 .container{
     width: 80vw;
     height: 100vh;
     margin: 0 auto;
-    padding-top: 50px;
 }
 .container section{
     display: flex;
@@ -63,7 +61,7 @@ main{
     height: 110px;
     margin: 0 5px;
 }
-main section{
+main section:{
     margin-bottom: 20px;
 }
 section div{
@@ -106,7 +104,8 @@ footer section div{
 .menu div:nth-child(4) a i{
     color: #4bc800
 }
-.last-section{
+.last-section:hover{
+    cursor: pointer;
     background-color: rgba(255, 255, 255, 0.2);
 }
 .last-section > div{
